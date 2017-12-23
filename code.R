@@ -152,7 +152,7 @@ save_plots <- function(dta, state, diff_state, national, diff_national, repo){
 #------------------------------------------------------------------------------#
 
 # Data import from IPUMS
-repo <- "~/github/neal"
+repo <- getwd()
 raw_data <- read_csv(paste0(repo, "/highschool_grad_rate.csv"))
 
 # Data Cleaning
